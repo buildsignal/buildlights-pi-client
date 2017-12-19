@@ -28,9 +28,9 @@ This script is used to control a basic SMD5050 led strip.
 Install the required dependency, pigpio  
 Create a cron job to execute the script every minute (or whatever frequency you choose)  
 Edit the script to update the configuration:  
-GREEN_PIN: The PIO Ouput pin controlling connected to the Green signal  
-BLUE_PIN: The PIO Ouput pin controlling connected to the Blue signal  
-RED_PIN: The PIO Ouput pin controlling connected to the Red signal  
+GREEN_PIN: The PIO Output pin controlling connected to the Green signal  
+BLUE_PIN: The PIO Output pin controlling connected to the Blue signal  
+RED_PIN: The PIO Output pin controlling connected to the Red signal  
 LIGHT_ID: The configured light id within the lambda api  
 clientId: Must match the client id sent to the lambda functions by the CI Server  
 base_url: The url of the API gateway fronting the lambda functions  
