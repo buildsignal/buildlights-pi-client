@@ -27,7 +27,7 @@ You must enable the SPI peripheral:
 This script is used to control a basic SMD5050 led strip.  
 Install the required dependency, pigpio  
 Create a cron job to execute the script every minute (or whatever frequency you choose)  
-Edit the script to update the configuration:
+Edit the script to update the configuration:  
 GREEN_PIN: The PIO Ouput pin controlling connected to the Green signal  
 BLUE_PIN: The PIO Ouput pin controlling connected to the Blue signal  
 RED_PIN: The PIO Ouput pin controlling connected to the Red signal  
